@@ -1,0 +1,12 @@
+{
+  "name": "avatar-profile-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types src/avatar_pipeline.test.ts",
+    "example": "node --experimental-strip-types src/run_avatar_pipeline.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.7.0" }
+}
